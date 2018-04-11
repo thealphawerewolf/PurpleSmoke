@@ -18,7 +18,7 @@
 #include <pthread.h>
 #include "offsets.h"
 #include "bazadleak.h"
-
+#include "jailbreak.h"
 
 //Kernel memory helpers
 kern_return_t mach_vm_read
