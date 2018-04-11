@@ -97,6 +97,7 @@ int jailbreak()
   printf("osserialize_serialize: %#llx\n", osserializer_serialize);
   printf("k_uuid_copy: %#llx\n", kernel_uuid_copy);
   printf("All done! Let's hope a kernel exploit is coming soon.\n");
+  return ptr_leak != 0;
 }
 
 
