@@ -11,6 +11,7 @@
 #define off_allproc 0xfffffff007625808 //allproc
 #define off_realhost 0xfffffff0075c0b98 //realhost
 #define off_call5 0xfffffff006249e90 //call5
+#define off_proc_task 0xFFFFFFF0073E250C
 
 
 //iPhone 6S (iPhone8,2)
@@ -23,4 +24,5 @@
 #define off_allproc 0xfffffff007625808; //allproc
 #define off_realhost 0xfffffff0075c0b98; //realhost
 #define off_call5 0xfffffff006249e90; //call5
+#define off_proc_task 0xFFFFFFF0073E250C
 #endif
